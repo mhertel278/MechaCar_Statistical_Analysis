@@ -11,4 +11,13 @@ A car company has gathered data on multiple prototypes for a new model, the Mech
 
 The company has requested a linear regression model to predict the affect of the various attributes recorded in the first data set on fuel efficiency.  Using R, I developed a multiple linear regression model to predict how vehicle length, vehicle weight, spoiler angle, ground_clearance, and all wheel drive classification would affect fuel efficiency.  I then gathered the summary statistics of the linear regression model; the model itself and the summary are seen here:
 
-![mpg](Resources/mpg.png)
+![mpg](Resources/mpg.png);
+
+#### Results
+ - The summary shows that vehicle length and ground clearance both have a p-value well below the standard assumed significance level of .05.  Therefore I conclude that these factors provide a non-random and thus statistically significant variance in the resulting miles per gallon.  Additionally, the intercept also has a p-value below .05, indicating there are more factors not observed in this data set that may contribute significant variance to the miles per gallon
+
+ - The summary shows that the r-squared value for the model is .6825, meaning that the model can predict miles per gallon accurately 68% of the time.  Combined with the significance of the variables listed above, there is sufficient evidence to reject the null hypothesis and determine that the slope of the model is not 0.
+
+ - While the slope of the model is not 0 and the vehicle length and ground clearance demonstrate significance, the significance of the y intercept in the model indicates that more factors not included in the model are significant.  Although this model is fairly accurate at predicting fuel efficiency within the observed prototypes, the model will likely not predict future outcomes well.  More factors would need to be observed and added to the model to determine which missing variables are significant and thus build a model more capable of predicting fuel efficiency outcomes.
+
+ ###
