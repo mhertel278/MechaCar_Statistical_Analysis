@@ -20,4 +20,18 @@ The company has requested a linear regression model to predict the affect of the
 
  - While the slope of the model is not 0 and the vehicle length and ground clearance demonstrate significance, the significance of the y intercept in the model indicates that more factors not included in the model are significant.  Although this model is fairly accurate at predicting fuel efficiency within the observed prototypes, the model will likely not predict future outcomes well.  More factors would need to be observed and added to the model to determine which missing variables are significant and thus build a model more capable of predicting fuel efficiency outcomes.
 
- ###
+ ### Deliverable 2: Summary Statistics on Suspension Coils
+
+ The company requested summary statistics on the weight capacity of the suspension coils produced accross different manufacturing lots.  Specifically, the company wished to determine if the the variance in PSI exceeds the maximum allowable variance of 100 according to the design specifications.
+
+ A summary of all coils produced shows that the variance in PSI does not exceed 100:
+
+ ![all coils](Resources/total_summary.png)
+
+ However, the summaries for each lot show that lots 1 and 2 do not exceed the maximum variance, while lot 3 does with a variance of 170.2:
+
+ ![lot_summary](Resources/lot_summary.png)
+
+ While the overall production does meat the desing specifications, coils from lot 3 do not, and should be removed from production until the issue causing such a large variance is determined and resolved.
+
+ 
