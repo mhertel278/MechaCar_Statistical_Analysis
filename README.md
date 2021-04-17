@@ -22,7 +22,7 @@ The company has requested a linear regression model to predict the affect of the
 
  ### Deliverable 2: Summary Statistics on Suspension Coils
 
- The company requested summary statistics on the weight capacity of the suspension coils produced accross different manufacturing lots.  Specifically, the company wished to determine if the the variance in PSI exceeds the maximum allowable variance of 100 according to the design specifications.
+ The company requested summary statistics on the weight capacity of the suspension coils produced accross different manufacturing lots.  Specifically, the company wished to determine if the the variance in Weight Capacity exceeds the maximum allowable variance of 100 psi according to the design specifications.
 
  A summary of all coils produced shows that the variance in PSI does not exceed 100:
 
@@ -34,4 +34,3 @@ The company has requested a linear regression model to predict the affect of the
 
  While the overall production does meat the desing specifications, coils from lot 3 do not, and should be removed from production until the issue causing such a large variance is determined and resolved.
 
- 
