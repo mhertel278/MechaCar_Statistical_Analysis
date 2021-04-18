@@ -62,3 +62,12 @@ For Lot 3, the p-value is .04:
 
 For this lot, the p-value is below the standard significance level of .05.  Thus we have sufficient evedince to reject the null hypothesis and conclude that Lot 3 and the mean are statistically different.  
 
+### Deliverable 4: Study Design: MechaCar vs Competition
+
+The company wants an option for a statistical test to be performed to compare a key metric of their MechaCar to cars from other manufacturers.  I propose to perform and ANOVA test to determine if there is any statistical difference between MechaCar's mean fuel efficiency and the mean fuel efficiency of other manufacturers.  The ANOVA test determines if there is any statistical difference between the mean of a given metric across more than two sample populations.  Being able to compare accross multiple populations makes the ANOVA test more ideal than a T-test, as a test can only compare one sample population to either another sample population or the population mean.  To compare MechaCar to multiple other manufacturers, a separate T-test would be needed to compare MechaCar to each manufacturer.  An ANOVA test allows several manufacturers to be compared in one test.
+
+In this test, the null hypothesis is that there is no statisctical difference between the fuel efficiency of cars from various manufacturers.  The alternative hypothesis is that there is a statistical difference between the mean fuel efficiency of one of the manufacturers and the others.
+
+MechaCar's fuel efficiency data has already been collected, so data on fuel efficiency for other manufacturers needs to be collected to perform the test.  To ensure an accurate test, the conditions under which the MechaCar's fuel efficiency data were collected should be recreated in collecting data for the other cars, ie they should be observed on similar terrain, weather, and weight of cargo and passengers in the vehicles.  If the MechaCar was tested in city conditions, other cars should be as well.  Alternatively if the MechaCar was tested on highway, the other cars should be as well.
+
+The test should be limited to 4 other manufacturers along side the MechaCar.
