@@ -22,7 +22,7 @@ The company has requested a linear regression model to predict the affect of the
 
  ### Deliverable 2: Summary Statistics on Suspension Coils
 
- The company requested summary statistics on the weight capacity of the suspension coils produced accross different manufacturing lots.  Specifically, the company wished to determine if the the variance in Weight Capacity exceeds the maximum allowable variance of 100 psi according to the design specifications.
+ The company requested summary statistics on the weight capacity of the suspension coils produced accross different manufacturing lots.  Specifically, the company wished to determine if the the variance in Weight Capacity exceeds the maximum allowable variance of 100 according to the design specifications.
 
  A summary of all coils produced shows that the variance in PSI does not exceed 100:
 
@@ -33,4 +33,32 @@ The company has requested a linear regression model to predict the affect of the
  ![lot_summary](Resources/lot_summary.png)
 
  While the overall production does meat the desing specifications, coils from lot 3 do not, and should be removed from production until the issue causing such a large variance is determined and resolved.
+
+ ### Deliverabe 3: T Tests on Suspension Coils
+
+ The company wanted to know if there was any statistical difference between the all the coils produced and the population mean of 1500, as well as if there was any statistical difference between the individual lots and the population mean.
+
+ I conducted a T-test on the entire group of suspension coils against the mean of 1500. 
+
+ ![all lots](Resources/all_lots.png)
+
+ The p-value for all lots is .06, slightly higher than the common significance level of .05.  Thus there is not sufficient evidence to reject the null hypothesis, and therefore we can assume that the group of all lots is statistically similar to the population mean.
+
+ For Lot 1, the p-value is 1:
+
+ ![lot1](Resources/lot_1.png)
+
+ This is much higher than the significance level of .05, and thus again there is not sufficient evidence to reject the null hypothesis, so Lot 1 and the population mean are statistically similar.
+
+ For Lot 2, the p-value is .607:
+
+ ![lot2](Resources/lot_2.png)
+
+Again, this is higher than the significance level of .05.  So for Lot 2 we cannot reject the null hypothesis, and we conclude Lot 2 and the mean are statistically similar.
+
+For Lot 3, the p-value is .04:
+
+![lot3](Resources/lot_3.png)
+
+For this lot, the p-value is below the standard significance level of .05.  Thus we have sufficient evedince to reject the null hypothesis and conclude that Lot 3 and the mean are statistically different.  
 
